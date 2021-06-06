@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@500&display=swap');
+*{
+  font-family: 'Sarabun', sans-serif;
+}
+.generator{
+  top: 0;
+  position: absolute;
+}
+.logo{
+  top: 12px;
+  left: 12px;
+  position: absolute;
+  height: 22%;
+
+}
+.generator-warp{
+  background-color: white;
+  position: relative;
+  width: 100%;
+  padding-top: 45%; /* 4:3 Aspect Ratio */
+  border: 1px solid #000000;
+}
