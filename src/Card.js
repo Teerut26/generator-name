@@ -3,7 +3,7 @@ import Form from "./Form";
 
 export default function Card() {
   const [BaseUrl, setBaseUrl] = useState(
-    "http://api-vue-sv1.herokuapp.com/generator/name/physics"
+    "https://api-vue-sv1.herokuapp.com/generator/name/physics"
   );
 
   const [Image1, setImage1] = useState(null);
